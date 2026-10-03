@@ -1,20 +1,14 @@
 # CreditWise Loan System
 
-A machine learning-based loan approval prediction system that analyzes applicant and loan-related information to predict whether a loan application is likely to be **Approved or Rejected**.
+loan approval prediction system that analyzes applicant and loan-related information to predict whether a loan application is likely to be **Approved or Rejected**.
 
-## 📌 Project Overview
-
-**CreditWise Loan System** demonstrates an end-to-end machine learning workflow for loan approval prediction, including data preprocessing, exploratory data analysis, feature engineering, model training, and evaluation.
-
-The current implementation is a **machine learning prototype / decision-support system** developed in Jupyter Notebook.
-
-## 🎯 Problem Statement
+## Problem Statement
 
 The system aims to support loan assessment by analyzing applicant factors such as income, credit score, employment status, loan amount, loan term, liabilities, and debt-to-income ratio.
 
 The objective is to build a classification system that predicts whether a loan application is likely to be approved or rejected.
 
-## 🔄 Project Workflow
+## Project Workflow
 
 ```text
 Dataset → Data Understanding → Data Cleaning → EDA
@@ -22,7 +16,7 @@ Dataset → Data Understanding → Data Cleaning → EDA
        → Model Training → Evaluation → Model Selection
 ```
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 - Dataset inspection
 - Missing-value analysis
@@ -33,7 +27,7 @@ Dataset → Data Understanding → Data Cleaning → EDA
 - One-hot encoding
 - Feature scaling
 
-## 🔬 Feature Engineering
+## Feature Engineering
 
 The project creates:
 
@@ -41,13 +35,13 @@ The project creates:
 - `Credit_Score_Sq`
 - `Applicant_Income_log`
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Gaussian Naive Bayes
 
-## 📊 Model Evaluation
+## Model Evaluation
 
 Models were evaluated using:
 
@@ -81,7 +75,7 @@ Because the project prioritizes **precision**, Gaussian Naive Bayes was selected
  [ 16  45]]
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - Pandas
@@ -89,22 +83,9 @@ Because the project prioritizes **precision**, Gaussian Naive Bayes was selected
 - Scikit-learn
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
+- Kagggle Notebook
 
-## 📁 Project Structure
-
-```text
-CreditWise-Loan-System/
-│
-├── creditwise-loan-system.ipynb
-├── README.md
-└── dataset/
-    └── loan_dataset.csv
-```
-
-> Update the dataset path above if your repository uses a different filename or folder structure.
-
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repository
 
@@ -127,7 +108,7 @@ jupyter notebook
 
 Open `creditwise-loan-system.ipynb` and run the cells sequentially.
 
-## 🌍 Future Scope
+## Future Scope
 
 The notebook can be extended into a web-based loan decision-support platform:
 
@@ -149,30 +130,12 @@ Applicant / Bank System
     Bank Dashboard
 ```
 
-Potential future improvements:
-
-- Web-based loan application
-- FastAPI/REST API
-- Database integration
-- Applicant and bank dashboards
-- Authentication and authorization
-- Model versioning and monitoring
-- Explainable predictions
-- Audit logging
-- Integration with existing banking systems
-
-## ⚠️ Disclaimer
-
-CreditWise is an educational and portfolio machine learning project. The current implementation is a prototype and is **not a production banking or autonomous loan approval system**.
-
-Real-world deployment would require appropriate security, validation, monitoring, governance, fairness assessment, regulatory compliance, and human oversight.
-
 ## 👨‍💻 Author
 
 **Aman Sharma**
-
-Data Science & Machine Learning Enthusiast
-
+Data Scientist
 ---
+*You can explore my Notebook on kaggle*
+Check out my portfolio [here](https://yourwebsite.com).
 
 ⭐ If you find this project useful, consider giving the repository a star!
