@@ -135,7 +135,7 @@ Applicant / Bank System
 **Aman Sharma**
 Data Scientist
 ---
-*You can explore my Notebook on kaggle*
+*You can explore my Notebook on kaggle*:
 <br>
 CreditWise [here](https://www.kaggle.com/code/amansharma1812/creditwise-loan-system).
 
