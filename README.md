@@ -133,7 +133,6 @@ Applicant / Bank System
 ## 👨‍💻 Author
 
 **Aman Sharma**
-Data Scientist
 ---
 *You can explore my Notebook on kaggle*:
 <br>
